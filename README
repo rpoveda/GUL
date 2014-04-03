@@ -1,0 +1,4 @@
+Projeto para pegar todas as urls dos vídeos de uma lista de reproduçaõ do Youtube.
+Dependências 
+	=> cheerio
+	=> request
