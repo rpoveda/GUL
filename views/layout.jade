@@ -1,0 +1,16 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    script(src='http://code.jquery.com/jquery-1.11.0.min.js')
+    script(src='/javascripts/index.js')
+  body
+    block content
+    a(href='#', class='getFilmes') Get all links
+    #loader
+      img(src='http://media.gillettevenus.com.br/Common/Assets/Images/ajax-loader.gif')
+    #links
+    form(method='POST',enctype="multipart/form-data", action='/postimage')
+      input(type='file', name='thumbnail')
+      input(type='submit', value='Send')
