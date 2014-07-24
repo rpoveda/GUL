@@ -1,12 +1,12 @@
 var express = require('express');
-var routes = require('./routes');
-var user = require('./routes/user');
-var links = require('./routes/links');
-var http = require('http');
-var path = require('path');
-var fs = require('fs');
-
-var app = express();
+  , routes = require('./routes');
+  , user = require('./routes/user');
+  , links = require('./routes/links');
+  , http = require('http');
+  , path = require('path');
+  , fs = require('fs');
+  , app = express();
+   
 
 // all environments
 app.set('port', process.env.PORT || 8888);
