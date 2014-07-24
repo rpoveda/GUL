@@ -1,10 +1,10 @@
-var express = require('express');
-  , routes = require('./routes');
-  , user = require('./routes/user');
-  , links = require('./routes/links');
-  , http = require('http');
-  , path = require('path');
-  , fs = require('fs');
+var express = require('express')
+  , routes = require('./routes')
+  , user = require('./routes/user')
+  , links = require('./routes/links')
+  , http = require('http')
+  , path = require('path')
+  , fs = require('fs')
   , app = express();
    
 
